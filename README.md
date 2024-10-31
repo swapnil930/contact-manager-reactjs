@@ -1,6 +1,6 @@
 # Contact Management Application
 
-This is a full-stack web application for managing contacts, built with **ReactJS** on the frontend and **Spring Boot** on the backend. It allows users to create, view, update, and delete contacts. The app is designed to be fast, responsive, and user-friendly.
+This is a full-stack web application for managing contacts, built with **ReactJS** on the frontend and **JSON** on the backend. It allows users to create, view, update, and delete contacts. The app is designed to be fast, responsive, and user-friendly.
 
 ## Features
 
@@ -25,39 +25,33 @@ This is a full-stack web application for managing contacts, built with **ReactJS
 
 ## Setup and Installation
 
-### Backend (Spring Boot)
+### Backend (Json-server)
 
 1. Clone the repository:
-- Clone the repository: You clone the Spring Boot project from GitHub to your local machine (download zip file and extract it in your system).
-- Setup spring tool: Download spring tool and extract it. launch it.
-  
+- Clone the repository: You clone the project from GitHub to your local machine (download zip file and extract it in your system).
+- create server folder in location ContactManagerApp/server (not in src folder)
+- Now to run Json server you need to install node_module folder inside server folder.
 ```bash
-https://spring.io/tools
+npm install
 ```
-- Open the project: Once download all, open the project folder in an IDE like SpringToolSuite4 for eclips.  
-- OR
-- Create project: Create new Spring starter project in spring tool.
-- Select defendancy:
- 1. From SQL section choose 'MYSQL' and 'Spring data'.
- 2. From web section choose 'Spring Web'.
- 3. From devloper tool section 'Sringboot dev tool' and 'Lambok'.
- 4. click 'Next'.
- 5. Configure database connection inside Application.Properties (refer code).
- 6. Add pakages and create class (follow github files code refernce for creating project structure).
-- Run application or server: Inside base package there is class ContactManagerApplication Run that class.
-- Now your springboot server will ON.
+- inside that add files/paste files from my server folder (follow structure as shown in server folder)
+- eg. db.json, package.json, Contactservices.jsx
+- Now install json-server
+  ```bash
+  npm i json-server --save
+  ```
 
 ### Frontend (ReactJS)
   1. Open vsCode terminal (Use Following Commands)
   2. In your project directory: npm install
-  3. Create new react Application : npx create-react-app ContactManagerFrontend
+  3. Create new react Application : npx create-react-app ContactManagerApp
   4. Install bootstrap : npm install bootstrap
   5. Install fontAwesome: npm i @fortawesome/fontawesome-free
   6. Connect fontawesome with html page:	Visit fontawesome (fortawesome/fontawesome-free) official website copy the cdn link and paste in index.html.
   7. Install Axios: npm i axios
   8. Install React-Router: npm install react-router-dom@6
   9. All defendancy setup done....
-  10. Now inside src file create folder & components structure (refer ContactManagerFrontend file and components code).
+  10. Now inside src file create folders & components structure (refer ContactManagerApp file and components code).
   11. Now run application : npm start
 
 ### API Endpoints
