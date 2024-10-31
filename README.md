@@ -1,3 +1,4 @@
+
 # Contact Management Application
 
 This is a full-stack web application for managing contacts, built with **ReactJS** on the frontend and **JSON** on the backend. It allows users to create, view, update, and delete contacts. The app is designed to be fast, responsive, and user-friendly.
@@ -61,6 +62,12 @@ npm i json-server --save
 - PUT /contacts/{id}: Update a contact by ID.
 - DELETE /contacts/{id}: Delete a contact by ID.
 - Make sure API will be same in both service component & Controller class.
+
+### Run the Application
+- npm start
+### Run the Server
+- cd server
+- npm start
 
 ### Screenshots
 ![image](https://github.com/user-attachments/assets/d81c5b4f-88a6-4cab-92aa-66f3afdeec62)
