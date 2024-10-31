@@ -29,15 +29,15 @@ This is a full-stack web application for managing contacts, built with **ReactJS
 ### Backend (Json-server)
 
 1. Clone the repository:
-- Clone the repository: You clone the project from GitHub to your local machine (download zip file and extract it in your system).
-- create server folder in location ContactManagerApp/server (not in src folder)
-- Now to run Json server you need to install node_module folder inside server folder.
+2. Clone the repository: You clone the project from GitHub to your local machine (download zip file and extract it in your system).
+3. create server folder in location ContactManagerApp/server (not in src folder)
+4. Now to run Json server you need to install node_module folder inside server folder.
 ```bash
 npm install
 ```
-- inside that add files/paste files from my server folder (follow structure as shown in server folder)
+5. inside that add files/paste files from my server folder (follow structure as shown in server folder)
 - eg. db.json, package.json, Contactservices.jsx
-- Now install json-server
+6. Now install json-server
 ```bash
 npm i json-server --save
 ```
@@ -66,8 +66,8 @@ npm i json-server --save
 ### Run the Application
 - npm start
 ### Run the Server
-- cd server
-- npm start
+1. cd server
+2. npm start
 
 ### Screenshots
 ![image](https://github.com/user-attachments/assets/d81c5b4f-88a6-4cab-92aa-66f3afdeec62)
