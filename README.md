@@ -37,9 +37,9 @@ npm install
 - inside that add files/paste files from my server folder (follow structure as shown in server folder)
 - eg. db.json, package.json, Contactservices.jsx
 - Now install json-server
-  ```bash
-  npm i json-server --save
-  ```
+```bash
+npm i json-server --save
+```
 
 ### Frontend (ReactJS)
   1. Open vsCode terminal (Use Following Commands)
@@ -65,7 +65,7 @@ npm install
 ### Screenshots
 ![image](https://github.com/user-attachments/assets/d81c5b4f-88a6-4cab-92aa-66f3afdeec62)
 ![image](https://github.com/user-attachments/assets/b4ded839-b239-4fb3-b00c-6c4730cbddd7)
-![image](https://github.com/user-attachments/assets/4eda33fa-1290-4102-bf88-3d9c77f61797)
+![image](https://github.com/user-attachments/assets/8b2c9a1d-8529-4182-a248-2605a1640411)
 ![image](https://github.com/user-attachments/assets/f45dd4d4-ff7a-46ef-8ec9-abca2c857802)
 
 
